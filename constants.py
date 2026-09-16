@@ -1,0 +1,61 @@
+# Game Constants and Colors
+
+# Screen Dimensions
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 700
+GRID_SIZE = 20
+
+# Colors (RGB)
+COLOR_BLACK = (0, 0, 0)
+COLOR_WHITE = (255, 255, 255)
+COLOR_RED = (255, 0, 0)
+COLOR_GREEN = (0, 255, 0)
+COLOR_DARK_GREEN = (0, 180, 0)
+COLOR_YELLOW = (255, 255, 0)
+COLOR_BLUE = (0, 100, 255)
+COLOR_DARK_BLUE = (0, 50, 150)
+COLOR_PURPLE = (128, 0, 128)
+COLOR_CYAN = (0, 255, 255)
+COLOR_ORANGE = (255, 165, 0)
+COLOR_GRAY = (128, 128, 128)
+COLOR_LIGHT_GRAY = (200, 200, 200)
+
+# Game States
+GAME_STATE_MENU = "menu"
+GAME_STATE_PLAYING = "playing"
+GAME_STATE_PAUSED = "paused"
+GAME_STATE_GAME_OVER = "game_over"
+GAME_STATE_DIFFICULTY = "difficulty"
+GAME_STATE_MODE = "mode"
+
+# Difficulty Levels
+DIFFICULTY_EASY = 1
+DIFFICULTY_MEDIUM = 2
+DIFFICULTY_HARD = 3
+DIFFICULTY_EXTREME = 4
+
+# Game Modes
+MODE_CLASSIC = "classic"
+MODE_SURVIVAL = "survival"
+MODE_TIME_ATTACK = "time_attack"
+MODE_ENDLESS = "endless"
+
+# Speeds (FPS)
+SPEED_EASY = 5
+SPEED_MEDIUM = 10
+SPEED_HARD = 15
+SPEED_EXTREME = 25
+
+# Scores
+SCORE_FOOD = 10
+SCORE_OBSTACLE_DODGE = 5
+SCORE_MULTIPLIER = 1
+
+# Game Limits
+MAX_SNAKE_LENGTH = 100
+MIN_SNAKE_LENGTH = 3
+
+# Time Attack Mode
+TIME_ATTACK_DURATION = 60  # seconds
+
+print("Constants loaded successfully!")
